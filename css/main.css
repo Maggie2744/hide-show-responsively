@@ -42,26 +42,22 @@ html {
   }
 
   img:nth-child(1) {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline;
     width: 50%;
   }
 
   img:nth-child(2) {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline;
     width: 50%;
   }
 
   img:nth-child(3) {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline;
     width: 50%;
   }
 
   img:nth-child(4) {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline;
     width: 50%;
   }
 }
