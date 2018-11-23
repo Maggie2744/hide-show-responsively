@@ -28,6 +28,14 @@ html {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  img:nth-child(2) {
+    display: none;
+  }
+
+  img:nth-child(4) {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -37,6 +45,7 @@ html {
   }
 
   img {
+    display: inline-block;
     margin: 0 0 1.5rem;
   }
 }
