@@ -41,32 +41,25 @@ html {
     font-size: 110%;
   }
 
-  img {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: auto;
+  body {
+    display: block;
   }
 
-  img:nth-child(1) {
-    display: inline-block;
-    width: 50%;
+  img {
+    display: inline-flex;
+    max-width: 50%;
   }
 
   img:nth-child(2) {
-    display: inline-block;
-    width: 50%;
-  }
-
-  img:nth-child(3) {
-    display: inline-block;
+    display: inline;
     width: 50%;
   }
 
   img:nth-child(4) {
-    display: inline-block;
+    display: inline;
     width: 50%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -77,6 +70,5 @@ html {
 
   img {
     display: inline-block;
-    margin: 0 0 1.5rem;
   }
 }
