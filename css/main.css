@@ -62,6 +62,36 @@ img:nth-child(4) {
 
 }
 
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+  }
+
+  body {
+    display: inline-block;
+  }
+
+  img {
+    width: 50%;
+    float: left;
+    padding: 3px;
+  }
+
+  img:nth-child(2) {
+    display: inline;
+  }
+
+  img:nth-child(3) {
+    display: inline;
+  }
+
+  img:nth-child(4) {
+    display: inline;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
