@@ -126,7 +126,8 @@ img:nth-child(4) {
 
   img {
     width: 25%;
-    padding: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   img:nth-child(1) {
