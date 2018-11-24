@@ -39,7 +39,7 @@ img:nth-child(4) {
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-@media only screen and (min-width: 26em) {
+@media only screen and (min-width: 25em) {
 
   html {
     font-size: 100%;
