@@ -125,11 +125,11 @@ img:nth-child(4) {
   }
 
   img {
-    width: 33.333%;
+    width: 25%;
   }
 
   img:nth-child(1) {
-    display: none;
+    display: inline-block;
   }
 
 }
