@@ -29,8 +29,6 @@ img:nth-child(4) {
   display: none;
 }
 
-}
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
