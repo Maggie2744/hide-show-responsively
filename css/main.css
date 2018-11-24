@@ -75,7 +75,7 @@ img:nth-child(4) {
   img {
     width: 50%;
     float: left;
-    padding: 3px;
+    padding: 1px;
   }
 
   img:nth-child(2) {
