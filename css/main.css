@@ -139,3 +139,28 @@ img:nth-child(4) {
   }
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+
+  body {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 4px;
+  }
+
+  img {
+    width: 25%;
+    padding: 2px;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+
+  img:nth-child(1) {
+    display: inline-block;
+  }
