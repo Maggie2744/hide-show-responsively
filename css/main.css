@@ -122,11 +122,12 @@ img:nth-child(4) {
 
   body {
     display: inline-block;
+    padding-left: 3.5px;
+    padding-right: 3.5px;
   }
 
   img {
     width: 25%;
-    padding: 3px;
   }
 
   img:nth-child(1) {
