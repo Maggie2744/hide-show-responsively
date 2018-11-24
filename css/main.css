@@ -42,31 +42,25 @@ html {
   }
 
   body {
-    display: flex;
-    flex-flow: column;
+    display: inline-block;
   }
 
   img {
-    flex: 50%;
-    padding: 5px;
-    width: 100%;
-  }
-
-  img:nth-child(1) {
-    display: flex;
+    width: 50%;
+    float: left;
+    padding: 3px;
   }
 
   img:nth-child(2) {
-    display: inline-flex;
-    flex-direction: row;
+    display: inline;
   }
 
   img:nth-child(3) {
-    display: inline-flex;
+    display: inline;
   }
 
   img:nth-child(4) {
-    display: inline-flex;
+    display: inline;
   }
 }
 
@@ -76,7 +70,15 @@ html {
     line-height: 1.5;
   }
 
-  img {
+  body {
     display: inline-block;
+  }
+
+  img {
+    width: 33.333%;
+  }
+
+  img:nth-child(1) {
+    display: none;
   }
 }
